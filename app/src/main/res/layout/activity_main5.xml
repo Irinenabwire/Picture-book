@@ -14,7 +14,7 @@
             android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"/>
     <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="395dp"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:text="my trendy Jacket"
@@ -22,6 +22,23 @@
             android:id="@+id/etJacket"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" android:hint="my trendy Jacket"/>
+            android:layout_marginRight="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" android:hint="my trendy Jacket"
+            app:layout_constraintHorizontal_bias="1.0"/>
+    <Button
+            android:text="Prev"
+            android:layout_width="182dp"
+            android:layout_height="63dp"
+            android:id="@+id/btnPrev"
+            app:layout_constraintTop_toBottomOf="@+id/etJacket" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="84dp" app:layout_constraintHorizontal_bias="0.019"/>
+    <Button
+            android:text="Next"
+            android:layout_width="166dp"
+            android:layout_height="66dp"
+            android:id="@+id/btnNext" android:layout_marginTop="84dp"
+            app:layout_constraintTop_toBottomOf="@+id/etJacket"
+            app:layout_constraintStart_toEndOf="@+id/btnPrev" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"/>
 </android.support.constraint.ConstraintLayout>
